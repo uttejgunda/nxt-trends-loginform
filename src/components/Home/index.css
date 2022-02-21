@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 70%;
+  padding-top: 50px;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+.right-container {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-image {
+  width: 100%;
+}
+.home-header {
+  font-family: 'roboto';
+  font-size: 48px;
+  color: #1e293b;
+}
+.desc {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #64748b;
+}
+.home-button {
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-family: 'roboto';
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
